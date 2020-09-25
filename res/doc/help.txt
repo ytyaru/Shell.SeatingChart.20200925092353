@@ -1,0 +1,14 @@
+${THIS_NAME} [-n NUM] [-s n|r|a]
+  座席表をランダム生成する。
+parameters:
+  -n 出力件数。デフォルトは40。
+  -s 並べ替え方法。
+     n|number    出席番号順。
+     r|random    ランダム。
+     a|alternate ランダム（男女交互）。デフォルトである。
+example:
+  ${THIS_NAME}
+  ${THIS_NAME} -n 8
+  ${THIS_NAME} -s n
+  ${THIS_NAME} -s r
+  ${THIS_NAME} -n 8 -s n

@@ -1,0 +1,8 @@
+${THIS_NAME} 値1 値2 値3 ...
+  日本人の名字でなく名前を指定した条件で抽出する。引数値に漢字があれば「表記」、なければ「読み」の絞込条件値と判定する。部分一致。複数指定するとAND。
+database: ${APP_ROOT}/dic/
+example:
+  ${THIS_NAME}
+  ${THIS_NAME} 'たろ'
+  ${THIS_NAME} '郎'
+  ${THIS_NAME} 'たろ' '郎'

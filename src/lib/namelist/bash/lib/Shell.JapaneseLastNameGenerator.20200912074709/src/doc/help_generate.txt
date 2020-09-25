@@ -1,0 +1,11 @@
+${THIS_NAME} [-n NUM]
+  日本人の名字（苗字・氏・姓・家名）を重複せずランダム出力する。
+parameters:
+  -n 出力件数 1以上の自然数。デフォルト30。-1など負数なら最大件数。0なら何も出力しない。
+database:
+  $(DB)
+example:
+  ${THIS_NAME}
+  ${THIS_NAME} -n 8
+  ${THIS_NAME} -n -1
+  ${THIS_NAME} -n 8 | sort

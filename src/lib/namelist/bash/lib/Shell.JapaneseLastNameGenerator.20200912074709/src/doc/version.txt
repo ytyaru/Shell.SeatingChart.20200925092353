@@ -1,0 +1,2 @@
+0.0.1	https://github.com/ytyaru/Shell.LastNameGenerator.20200902095536
+0.0.2	https://github.com/ytyaru/Shell.JapaneseLastNameGenerator.20200912074709
