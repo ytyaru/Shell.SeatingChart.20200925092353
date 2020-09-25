@@ -6,7 +6,7 @@
 
 # デモ
 
-![demo](https://github.com/ytyaru/Shell.SeatingChart.20200925092353/blob/master/demo/demo.png?raw=true)
+![demo](https://github.com/ytyaru/Shell.SeatingChart.20200925092353/blob/master/doc/demo.png?raw=true)
 
 # 特徴
 
